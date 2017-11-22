@@ -6,6 +6,7 @@ document.body.style.margin="0"
 scene=new THREE.scene()
 eye=new THREE.perspectiveCamera(50,1,0.1,1000000)
 renderer=new THREE.WebGLRenderer()
+render()
 render=()=>{
 requestAnimationFrame(render)
 eye.aspect=innerWidth/innerHeight
